@@ -12,7 +12,7 @@ module.exports = {
                 // This will need to change once we upgrade to corejs@3
                 corejs: 3,
                 // Do not transform modules to CJS
-                modules: false,
+                modules: 'commonjs',
                 // Exclude transforms that make all code slower
                 exclude: ["transform-typeof-symbol"]
             }
