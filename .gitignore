@@ -4,6 +4,7 @@
 .serverless
 .env*
 .npmrc
+.next
 htpasswd
 lerna-debug.log
 npm-debug.log
