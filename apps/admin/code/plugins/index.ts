@@ -10,7 +10,7 @@ import securityPlugins from "./security";
 import pageBuilderPlugins from "./pageBuilder";
 // import formBuilderPlugins from "./formBuilder";
 // import headlessCmsPlugins from "./headlessCms";
-import theme from "./theme";
+import theme from "theme";
 
 plugins.register([
     /**

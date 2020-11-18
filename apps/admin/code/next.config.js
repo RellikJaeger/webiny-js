@@ -1,26 +1,19 @@
 const withImages = require("next-images");
 const { green, red } = require("chalk");
+const { allPackages } = require("@webiny/project-utils/packages");
+
+const packages = allPackages();
 
 module.exports = withImages({
     target: "serverless",
+    typescript: {
+        ignoreBuildErrors: true
+    },
     webpack(config) {
         config.module.rules.push({
             test: /\.svg$/,
             include: file => {
-                
-                const include = (
-                    file.includes(__dirname) ||
-                    file.includes("node_modules") ||
-                    file.includes("packages")
-                );
-                
-                if(include) {
-                    console.log(`[ ${green("@SVGR")} ] ${file}`);
-                } else {
-                    console.log(`[ ${red("SKIP")} ] ${file}`);
-                }
-                
-                return include;
+                return packages.some(pkg => file.startsWith(pkg));
             },
             use: ["@svgr/webpack"]
         });
