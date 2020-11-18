@@ -1,6 +1,6 @@
 import React from "react";
 import { AdminMenuPlugin } from "@webiny/app-admin/types";
-import { ReactComponent as Icon } from "@webiny/app-page-builder/admin/assets/round-ballot-24px.svg";
+import Icon from "@webiny/app-page-builder/admin/assets/round-ballot-24px.svg";
 
 const plugin: AdminMenuPlugin = {
     type: "admin-menu",

@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 import { css } from "emotion";
 import { Icon } from "@webiny/ui/Icon";
 import { Accordion, AccordionItem } from "@webiny/ui/Accordion";
-import { ReactComponent as HandleIcon } from "./icons/round-drag_indicator-24px.svg";
+import HandleIcon from "./icons/round-drag_indicator-24px.svg";
 import Draggable from "./Draggable";
 import { FbBuilderFieldPlugin, FbEditorFieldGroup } from "@webiny/app-form-builder/types";
 

@@ -8,7 +8,7 @@ import { OptionsListItem, AddOptionInput, EditFieldOptionDialog } from "./Option
 // @ts-ignore
 import { sortableContainer, sortableElement, sortableHandle } from "react-sortable-hoc";
 import { Icon } from "@webiny/ui/Icon";
-import { ReactComponent as HandleIcon } from "@webiny/app-form-builder/admin/icons/round-drag_indicator-24px.svg";
+import HandleIcon from "@webiny/app-form-builder/admin/icons/round-drag_indicator-24px.svg";
 import { validation } from "@webiny/validation";
 import { FormChildrenFunctionParams } from "@webiny/form/Form";
 

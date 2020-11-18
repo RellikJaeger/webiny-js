@@ -16,8 +16,8 @@ import { Accordion, AccordionItem } from "@webiny/ui/Accordion";
 import { validation } from "@webiny/validation";
 import AccountTokens from "./AccountTokens";
 import AvatarImage from "../Components/AvatarImage";
-import { ReactComponent as SettingsIcon } from "../../assets/icons/settings-24px.svg";
-import { ReactComponent as SecurityIcon } from "../../assets/icons/security-24px.svg";
+import SettingsIcon from "../../assets/icons/settings-24px.svg";
+import SecurityIcon from "../../assets/icons/security-24px.svg";
 import { GET_CURRENT_USER, UPDATE_CURRENT_USER } from "./graphql";
 
 import {

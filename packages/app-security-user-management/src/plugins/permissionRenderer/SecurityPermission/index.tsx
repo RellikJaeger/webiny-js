@@ -1,7 +1,7 @@
 import React from "react";
 import { AccordionItem } from "@webiny/ui/Accordion";
 import { AdminAppPermissionRendererPlugin } from "@webiny/app-admin/types";
-import { ReactComponent as SecurityIcon } from "@webiny/app-admin/assets/icons/baseline-security-24px.svg";
+import SecurityIcon from "@webiny/app-admin/assets/icons/baseline-security-24px.svg";
 import { SecurityPermissions } from "./SecurityPermissions";
 import { i18n } from "@webiny/app/i18n";
 

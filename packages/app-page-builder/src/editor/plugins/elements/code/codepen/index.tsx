@@ -3,13 +3,13 @@ import styled from "@emotion/styled";
 import { Tab } from "@webiny/ui/Tabs";
 import { Input } from "@webiny/ui/Input";
 import { Grid, Cell } from "@webiny/ui/Grid";
-import { ReactComponent as CodeIcon } from "./../../../elementGroups/code/code.svg";
+import CodeIcon from "./../../../elementGroups/code/code.svg";
 import {
     createEmbedPlugin,
     createEmbedSettingsPlugin
 } from "./../../utils/oembed/createEmbedPlugin";
 
-import { ReactComponent as LogoIcon } from "./codepen-brands.svg";
+import LogoIcon from "./codepen-brands.svg";
 import { validation } from "@webiny/validation";
 
 const PreviewBox = styled("div")({

@@ -5,7 +5,7 @@ import { Tooltip } from "@webiny/ui/Tooltip";
 import { Typography } from "@webiny/ui/Typography";
 import { CopyButton } from "@webiny/ui/Button";
 import { css } from "emotion";
-import { ReactComponent as InformationIcon } from "../../assets/icons/info.svg";
+import InformationIcon from "../../assets/icons/info.svg";
 
 const style = {
     apiUrl: css({

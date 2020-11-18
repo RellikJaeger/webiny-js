@@ -1,7 +1,7 @@
 import React from "react";
 import { i18n } from "@webiny/app/i18n";
 import { registerPlugins, getPlugins } from "@webiny/plugins";
-import { ReactComponent as SettingsIcon } from "@webiny/app-admin/assets/icons/round-settings-24px.svg";
+import SettingsIcon from "@webiny/app-admin/assets/icons/round-settings-24px.svg";
 import { WebinyInitPlugin } from "@webiny/app/types";
 import { AdminMenuSettingsPlugin } from "@webiny/app-admin/types";
 

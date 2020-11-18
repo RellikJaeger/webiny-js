@@ -4,14 +4,14 @@ import { Tab } from "@webiny/ui/Tabs";
 import { Input } from "@webiny/ui/Input";
 import { Select } from "@webiny/ui/Select";
 import { Grid, Cell } from "@webiny/ui/Grid";
-import { ReactComponent as SocialIcon } from "./../../../elementGroups/social/round-people-24px.svg";
+import SocialIcon from "./../../../elementGroups/social/round-people-24px.svg";
 import {
     createEmbedPlugin,
     createEmbedSettingsPlugin
 } from "./../../utils/oembed/createEmbedPlugin";
 import PinterestEmbed from "./PinterestEmbed";
 import { validation } from "@webiny/validation";
-import { ReactComponent as LogoIcon } from "./pinterest-brands.svg";
+import LogoIcon from "./pinterest-brands.svg";
 
 const PreviewBox = styled("div")({
     textAlign: "center",

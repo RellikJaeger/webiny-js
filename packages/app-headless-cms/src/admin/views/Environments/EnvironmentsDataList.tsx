@@ -13,7 +13,7 @@ import {
     ListItemMeta,
     ListActions
 } from "@webiny/ui/List";
-import { ReactComponent as InformationIcon } from "../../icons/info.svg";
+import InformationIcon from "../../icons/info.svg";
 import { Link } from "@webiny/react-router";
 import { ConfirmationDialogWithInput } from "./ConfirmationDialogWithInput";
 import styled from "@emotion/styled";

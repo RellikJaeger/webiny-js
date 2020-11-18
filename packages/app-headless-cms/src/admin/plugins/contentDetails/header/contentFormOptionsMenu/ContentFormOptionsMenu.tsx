@@ -18,8 +18,8 @@ const t = i18n.ns(
     "app-headless-cms/admin/plugins/content-details/header/content-form-options-menu"
 );
 
-import { ReactComponent as MoreVerticalIcon } from "@webiny/app-headless-cms/admin/icons/more_vert.svg";
-import { ReactComponent as DeleteIcon } from "@webiny/app-headless-cms/admin/icons/delete.svg";
+import MoreVerticalIcon from "@webiny/app-headless-cms/admin/icons/more_vert.svg";
+import DeleteIcon from "@webiny/app-headless-cms/admin/icons/delete.svg";
 
 const menuStyles = css({
     width: 250,

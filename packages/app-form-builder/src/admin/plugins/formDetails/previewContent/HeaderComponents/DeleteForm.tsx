@@ -4,7 +4,7 @@ import { useRouter } from "@webiny/react-router";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
 import { IconButton } from "@webiny/ui/Button";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import { ReactComponent as DeleteIcon } from "@webiny/app-form-builder/admin/icons/delete.svg";
+import DeleteIcon from "@webiny/app-form-builder/admin/icons/delete.svg";
 import { GET_FORM, DELETE_FORM } from "@webiny/app-form-builder/admin/viewsGraphql";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
 import { cloneDeep, get } from "lodash";

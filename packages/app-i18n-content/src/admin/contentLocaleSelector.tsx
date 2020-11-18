@@ -4,8 +4,8 @@ import { useI18N } from "@webiny/app-i18n/hooks/useI18N";
 import { Menu, MenuItem } from "@webiny/ui/Menu";
 import { ButtonPrimary, ButtonIcon } from "@webiny/ui/Button";
 import { css } from "emotion";
-import { ReactComponent as DoneIcon } from "./assets/done-24px.svg";
-import { ReactComponent as TranslateIcon } from "./assets/round-translate-24px.svg";
+import DoneIcon from "./assets/done-24px.svg";
+import TranslateIcon from "./assets/round-translate-24px.svg";
 
 const menuList = css({
     width: 160,

@@ -1,13 +1,13 @@
 import * as React from "react";
 import { ButtonFloating, IconButton } from "@webiny/ui/Button";
 import { Elevation } from "@webiny/ui/Elevation";
-import { ReactComponent as AddIcon } from "@webiny/app-page-builder/editor/assets/icons/add.svg";
+import AddIcon from "@webiny/app-page-builder/editor/assets/icons/add.svg";
 import { Tooltip } from "@webiny/ui/Tooltip";
 import { Typography } from "@webiny/ui/Typography";
 import { CircularProgress } from "@webiny/ui/Progress";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
-import { ReactComponent as EditIcon } from "./icons/round-edit-24px.svg";
-import { ReactComponent as DeleteIcon } from "./icons/round-close-24px.svg";
+import EditIcon from "./icons/round-edit-24px.svg";
+import DeleteIcon from "./icons/round-close-24px.svg";
 import * as Styled from "./StyledComponents";
 import kebabCase from "lodash/kebabCase";
 

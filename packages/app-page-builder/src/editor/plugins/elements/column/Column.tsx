@@ -8,7 +8,7 @@ import { IconButton } from "@webiny/ui/Button";
 import { ElementRoot } from "@webiny/app-page-builder/render/components/ElementRoot";
 import DropZone from "@webiny/app-page-builder/editor/components/DropZone";
 import ConnectedElement from "@webiny/app-page-builder/editor/components/ConnectedElement";
-import { ReactComponent as AddCircleOutline } from "@webiny/app-page-builder/editor/assets/icons/baseline-add_circle-24px.svg";
+import AddCircleOutline from "@webiny/app-page-builder/editor/assets/icons/baseline-add_circle-24px.svg";
 import { dropElement, togglePlugin } from "@webiny/app-page-builder/editor/actions";
 import { getElement } from "@webiny/app-page-builder/editor/selectors";
 import ElementAnimation from "@webiny/app-page-builder/render/components/ElementAnimation";

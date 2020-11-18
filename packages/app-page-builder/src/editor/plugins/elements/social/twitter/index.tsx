@@ -3,14 +3,14 @@ import styled from "@emotion/styled";
 import { Tab } from "@webiny/ui/Tabs";
 import { Input } from "@webiny/ui/Input";
 import { Grid, Cell } from "@webiny/ui/Grid";
-import { ReactComponent as SocialIcon } from "./../../../elementGroups/social/round-people-24px.svg";
+import SocialIcon from "./../../../elementGroups/social/round-people-24px.svg";
 import placeholder from "./placeholder.jpg";
 import {
     createEmbedPlugin,
     createEmbedSettingsPlugin
 } from "./../../utils/oembed/createEmbedPlugin";
 import { validation } from "@webiny/validation";
-import { ReactComponent as LogoIcon } from "./twitter-brands.svg";
+import LogoIcon from "./twitter-brands.svg";
 
 declare global {
     interface Window {

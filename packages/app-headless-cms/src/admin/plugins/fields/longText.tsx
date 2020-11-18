@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as LongTextIcon } from "./icons/round-notes.svg";
+import LongTextIcon from "./icons/round-notes.svg";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { I18NInput } from "@webiny/app-i18n/admin/components";
 import { CmsEditorFieldTypePlugin } from "@webiny/app-headless-cms/types";

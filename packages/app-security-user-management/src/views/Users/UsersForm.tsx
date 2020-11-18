@@ -18,8 +18,8 @@ import {
 import AccountTokens from "../Account/AccountTokens";
 import GroupAutocomplete from "../Components/GroupAutocomplete";
 import AvatarImage from "./../Components/AvatarImage";
-import { ReactComponent as SettingsIcon } from "../../assets/icons/settings-24px.svg";
-import { ReactComponent as SecurityIcon } from "../../assets/icons/security-24px.svg";
+import SettingsIcon from "../../assets/icons/settings-24px.svg";
+import SecurityIcon from "../../assets/icons/security-24px.svg";
 import { CREATE_USER, READ_USER, LIST_USERS, UPDATE_USER } from "./graphql";
 import { useRouter } from "@webiny/react-router";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";

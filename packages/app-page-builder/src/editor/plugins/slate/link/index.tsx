@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { ReactComponent as LinkIcon } from "@webiny/app-page-builder/editor/assets/icons/link.svg";
+import LinkIcon from "@webiny/app-page-builder/editor/assets/icons/link.svg";
 import LinkDialog from "./LinkDialog";
 import LinkTooltip from "./LinkTooltip";
 import {

@@ -14,14 +14,14 @@ import { Icon } from "@webiny/ui/Icon";
 import { DelayedOnChange } from "@webiny/app-page-builder/editor/components/DelayedOnChange";
 import { Typography } from "@webiny/ui/Typography";
 
-import { ReactComponent as SearchIcon } from "@webiny/app-page-builder/editor/assets/icons/search.svg";
+import SearchIcon from "@webiny/app-page-builder/editor/assets/icons/search.svg";
 import {
     SimpleForm,
     SimpleFormContent,
     SimpleFormHeader
 } from "@webiny/app-admin/components/SimpleForm";
 
-import { ReactComponent as AllIcon } from "./icons/round-clear_all-24px.svg";
+import AllIcon from "./icons/round-clear_all-24px.svg";
 import createBlockPlugin from "@webiny/app-page-builder/admin/utils/createBlockPlugin";
 import BlocksList from "./BlocksList";
 import { DELETE_ELEMENT, UPDATE_ELEMENT } from "./graphql";

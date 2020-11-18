@@ -13,9 +13,9 @@ import {
 import { Input } from "@webiny/ui/Input";
 import { ListItemMeta, SimpleListItem } from "@webiny/ui/List";
 import { IconButton } from "@webiny/ui/Button";
-import { ReactComponent as EditIcon } from "../../assets/icons/edit-24px.svg";
+import EditIcon from "../../assets/icons/edit-24px.svg";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
-import { ReactComponent as DeleteIcon } from "../../assets/icons/delete-24px.svg";
+import DeleteIcon from "../../assets/icons/delete-24px.svg";
 import { i18n } from "@webiny/app/i18n";
 const t = i18n.ns("app-security/admin/roles/data-list");
 

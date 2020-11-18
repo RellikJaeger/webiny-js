@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as AnimationIcon } from "./round-movie_filter-24px.svg";
+import AnimationIcon from "./round-movie_filter-24px.svg";
 import Action from "../components/Action";
 import AnimationSettings from "./AnimationSettings";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

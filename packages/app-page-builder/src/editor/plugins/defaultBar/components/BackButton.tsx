@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "@webiny/react-router";
 import { IconButton } from "@webiny/ui/Button";
-import { ReactComponent as BackIcon } from "./icons/round-arrow_back-24px.svg";
+import BackIcon from "./icons/round-arrow_back-24px.svg";
 import { css } from "emotion";
 
 const backStyles = css({

@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Cell } from "@webiny/ui/Grid";
-import { ReactComponent as Icon } from "./icons/dropdown-icon.svg";
+import Icon from "./icons/dropdown-icon.svg";
 import OptionsList from "./components/OptionsList";
 import { I18NInput } from "@webiny/app-i18n/admin/components";
 import { FbBuilderFieldPlugin } from "@webiny/app-form-builder/types";

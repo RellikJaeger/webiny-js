@@ -6,7 +6,7 @@ import { isEqual } from "lodash";
 import { ChromePicker } from "react-color";
 import { Menu } from "@webiny/ui/Menu";
 import { usePageBuilder } from "@webiny/app-page-builder/hooks/usePageBuilder";
-import { ReactComponent as IconPalette } from "@webiny/app-page-builder/editor/assets/icons/round-color_lens-24px.svg";
+import IconPalette from "@webiny/app-page-builder/editor/assets/icons/round-color_lens-24px.svg";
 
 const ColorPickerStyle = styled("div")({
     display: "flex",

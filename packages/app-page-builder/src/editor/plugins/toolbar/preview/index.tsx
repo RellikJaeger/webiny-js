@@ -1,6 +1,6 @@
 import * as React from "react";
-import { ReactComponent as ActiveIcon } from "./round-visibility_off-24px.svg";
-import { ReactComponent as InactiveIcon } from "./round-visibility-24px.svg";
+import ActiveIcon from "./round-visibility_off-24px.svg";
+import InactiveIcon from "./round-visibility-24px.svg";
 import Action from "../Action";
 import { PbEditorToolbarTopPlugin } from "@webiny/app-page-builder/types";
 

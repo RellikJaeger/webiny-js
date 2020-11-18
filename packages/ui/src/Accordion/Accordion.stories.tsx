@@ -10,7 +10,7 @@ import {
 import readme from "./README.md";
 import { Accordion } from "./Accordion";
 import { AccordionItem } from "./AccordionItem";
-import { ReactComponent as SettingsIcon } from "./icons/round-settings-24px.svg";
+import SettingsIcon from "./icons/round-settings-24px.svg";
 
 const story = storiesOf("Components/Accordion", module);
 

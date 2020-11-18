@@ -3,7 +3,7 @@ import { CmsEditorFieldRendererPlugin } from "@webiny/app-headless-cms/types";
 import { I18NValue } from "@webiny/app-i18n/components";
 import { i18n } from "@webiny/app/i18n";
 import I18NRichTextEditor from "@webiny/app-i18n/admin/components/I18NRichTextEditor";
-import { ReactComponent as DeleteIcon } from "@webiny/app-headless-cms/admin/icons/close.svg";
+import DeleteIcon from "@webiny/app-headless-cms/admin/icons/close.svg";
 import get from "lodash/get";
 import DynamicListMultipleValues from "@webiny/app-headless-cms/admin/plugins/fieldRenderers/DynamicListMultipleValues";
 import { useI18N } from "@webiny/app-i18n/hooks/useI18N";

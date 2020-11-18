@@ -6,7 +6,7 @@ import HTML5Backend from "react-dnd-html5-backend";
 import { DndProvider } from "react-dnd";
 import { getUi } from "@webiny/app-page-builder/editor/selectors";
 import { useKeyHandler } from "@webiny/app-page-builder/editor/hooks/useKeyHandler";
-import "./Editor.scss";
+// import "./Editor.scss";
 
 // Components
 import EditorBar from "./Bar";

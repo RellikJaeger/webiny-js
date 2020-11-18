@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import Spacer, { INIT_HEIGHT } from "./Spacer";
-import { ReactComponent as SpacerIcon } from "@webiny/app-page-builder/editor/assets/icons/spacer-icon.svg";
+import SpacerIcon from "@webiny/app-page-builder/editor/assets/icons/spacer-icon.svg";
 import "./actions";
 import { PbEditorPageElementPlugin } from "@webiny/app-page-builder/types";
 

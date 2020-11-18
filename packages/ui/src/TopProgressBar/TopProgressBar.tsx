@@ -1,6 +1,5 @@
 import * as React from "react";
 import nprogress from "nprogress";
-import "./style.scss";
 
 export type TopProgressBarRender = {
     start: () => void;

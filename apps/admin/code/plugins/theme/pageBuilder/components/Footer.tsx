@@ -4,9 +4,9 @@ import { Query } from "react-apollo";
 import get from "lodash.get";
 import { getFooterData } from "./graphql";
 
-import { ReactComponent as FacebookIcon } from "./assets/facebook-square-brands.svg";
-import { ReactComponent as TwitterIcon } from "./assets/twitter-square-brands.svg";
-import { ReactComponent as InstagramIcon } from "./assets/instagram-brands.svg";
+import FacebookIcon from "./assets/facebook-square-brands.svg";
+import TwitterIcon from "./assets/twitter-square-brands.svg";
+import InstagramIcon from "./assets/instagram-brands.svg";
 
 const Footer = () => {
     return (

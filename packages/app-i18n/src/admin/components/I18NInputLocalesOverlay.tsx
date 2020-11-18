@@ -11,7 +11,7 @@ import { SplitView, LeftPanel, RightPanel } from "@webiny/app-admin/components/S
 import { List, ListItem } from "@webiny/ui/List";
 import { Typography } from "@webiny/ui/Typography";
 import { ButtonPrimary, ButtonIcon } from "@webiny/ui/Button";
-import { ReactComponent as DoneIcon } from "./icons/baseline-done-24px.svg";
+import DoneIcon from "./icons/baseline-done-24px.svg";
 
 import {
     SimpleForm,

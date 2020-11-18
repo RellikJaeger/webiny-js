@@ -4,7 +4,7 @@ import { Chips, Chip } from "@webiny/ui/Chips";
 import { FormComponentProps } from "./../types";
 import { css } from "emotion";
 import keycode from "keycode";
-import { ReactComponent as BaselineCloseIcon } from "./icons/baseline-close-24px.svg";
+import BaselineCloseIcon from "./icons/baseline-close-24px.svg";
 import { FormElementMessage } from "@webiny/ui/FormElementMessage";
 
 type Props = FormComponentProps & {

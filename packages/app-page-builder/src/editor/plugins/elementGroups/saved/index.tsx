@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as SavedIcon } from "@webiny/app-page-builder/editor/assets/icons/round-favorite-24px.svg";
+import SavedIcon from "@webiny/app-page-builder/editor/assets/icons/round-favorite-24px.svg";
 import { PbEditorPageElementGroupPlugin } from "@webiny/app-page-builder/types";
 
 export default {

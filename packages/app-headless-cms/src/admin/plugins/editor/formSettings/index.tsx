@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FormSettingsPluginType } from "@webiny/app-headless-cms/types";
 import GeneralSettings from "./components/GeneralSettings";
-import { ReactComponent as SettingsIcon } from "./icons/round-settings-24px.svg";
+import SettingsIcon from "./icons/round-settings-24px.svg";
 
 export default {
     name: "content-model-editor-form-settings-general",

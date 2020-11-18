@@ -4,8 +4,8 @@ import { getUi } from "@webiny/app-page-builder/editor/selectors";
 import { IconButton } from "@webiny/ui/Button";
 import { Tooltip } from "@webiny/ui/Tooltip";
 
-import { ReactComponent as SaveIcon } from "@webiny/app-page-builder/editor/assets/icons/baseline-cloud_upload-24px.svg";
-import { ReactComponent as SavedIcon } from "@webiny/app-page-builder/editor/assets/icons/baseline-cloud_done-24px.svg";
+import SaveIcon from "@webiny/app-page-builder/editor/assets/icons/baseline-cloud_upload-24px.svg";
+import SavedIcon from "@webiny/app-page-builder/editor/assets/icons/baseline-cloud_done-24px.svg";
 
 const Saving = ({ saving }: { saving: boolean }) => {
     if (!saving) {

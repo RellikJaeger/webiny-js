@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { Input } from "@webiny/ui/Input";
-import { ReactComponent as LinkIcon } from "./icons/round-link-24px.svg";
+import LinkIcon from "./icons/round-link-24px.svg";
 import { ButtonPrimary } from "@webiny/ui/Button";
 import { get } from "lodash";
 import { i18n } from "@webiny/app/i18n";

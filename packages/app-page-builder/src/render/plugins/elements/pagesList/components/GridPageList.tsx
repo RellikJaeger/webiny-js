@@ -2,8 +2,8 @@ import * as React from "react";
 import { get } from "lodash";
 import { Link } from "@webiny/react-router";
 
-import { ReactComponent as PrevIcon } from "./icons/round-navigate_before-24px.svg";
-import { ReactComponent as NextIcon } from "./icons/round-navigate_next-24px.svg";
+import PrevIcon from "./icons/round-navigate_before-24px.svg";
+import NextIcon from "./icons/round-navigate_next-24px.svg";
 
 const formatDate = date => {
     const d = new Date(date);

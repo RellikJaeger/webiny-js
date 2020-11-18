@@ -1,8 +1,8 @@
 import React, { SyntheticEvent } from "react";
 import styled from "@emotion/styled";
 import { css } from "emotion";
-import { ReactComponent as LogoIcon } from "../assets/logo.svg";
-import { ReactComponent as AddFabBg } from "../assets/slide-7-fab-bg.svg";
+import LogoIcon from "../assets/logo.svg";
+import AddFabBg from "../assets/slide-7-fab-bg.svg";
 import { Typography } from "@webiny/ui/Typography";
 import { ButtonPrimary } from "@webiny/ui/Button";
 

@@ -15,7 +15,7 @@ import {
 } from "@webiny/app-page-builder/editor/actions";
 import "./actions";
 import Row from "./Row";
-import { ReactComponent as RowIcon } from "@webiny/app-page-builder/editor/assets/icons/row-icon.svg";
+import RowIcon from "@webiny/app-page-builder/editor/assets/icons/row-icon.svg";
 import { PbElement, PbEditorPageElementPlugin } from "@webiny/app-page-builder/types";
 
 export default (): PbEditorPageElementPlugin => {

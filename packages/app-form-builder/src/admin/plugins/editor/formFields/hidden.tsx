@@ -1,7 +1,7 @@
 import React from "react";
 import { Input } from "@webiny/ui/Input";
 import { Grid, Cell } from "@webiny/ui/Grid";
-import { ReactComponent as HiddenIcon } from "./icons/round-visibility_off-24px.svg";
+import HiddenIcon from "./icons/round-visibility_off-24px.svg";
 import { FbBuilderFieldPlugin } from "@webiny/app-form-builder/types";
 
 const plugin: FbBuilderFieldPlugin = {

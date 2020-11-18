@@ -41,16 +41,6 @@ module.exports = {
             {
                 useBuiltIns: true
             }
-        ],
-        [
-            "babel-plugin-named-asset-import",
-            {
-                loaderMap: {
-                    svg: {
-                        ReactComponent: "@svgr/webpack![path]"
-                    }
-                }
-            }
         ]
     ]
 };

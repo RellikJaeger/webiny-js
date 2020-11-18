@@ -1,6 +1,6 @@
 import * as React from "react";
-import { ReactComponent as OrderedListIcon } from "@webiny/app-page-builder/editor/assets/icons/format_list_numbered.svg";
-import { ReactComponent as UnorderedListIcon } from "@webiny/app-page-builder/editor/assets/icons/format_list_bulleted.svg";
+import OrderedListIcon from "@webiny/app-page-builder/editor/assets/icons/format_list_numbered.svg";
+import UnorderedListIcon from "@webiny/app-page-builder/editor/assets/icons/format_list_bulleted.svg";
 import {
     PbEditorSlateEditorPlugin,
     PbEditorSlateMenuItemPlugin

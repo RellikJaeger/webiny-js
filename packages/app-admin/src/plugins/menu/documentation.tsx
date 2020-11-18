@@ -3,7 +3,7 @@ import { AdminDrawerFooterMenuPlugin } from "@webiny/app-admin/types";
 import { ListItem, ListItemGraphic } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";
 import { i18n } from "@webiny/app/i18n";
-import { ReactComponent as DocsIcon } from "../../assets/icons/icon-documentation.svg";
+import DocsIcon from "../../assets/icons/icon-documentation.svg";
 
 const t = i18n.ns("app-admin/navigation");
 

@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import Select from "../components/Select";
 import Input from "../components/Input";
 import DurationInput from "../components/SliderWithInput";
-import { ReactComponent as TimerIcon } from "./icons/round-av_timer-24px.svg";
+import TimerIcon from "./icons/round-av_timer-24px.svg";
 
 import ElementAnimation from "@webiny/app-page-builder/render/components/ElementAnimation";
 

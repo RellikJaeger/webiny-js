@@ -4,7 +4,7 @@ import { Tab } from "@webiny/ui/Tabs";
 import FormElementAdvancedSettings from "./components/FormElementAdvancedSettings";
 import formElement from "../../../page-builder/render/plugins/formElement";
 import FormElement from "./components/FormElement";
-import { ReactComponent as FormLogo } from "./components/icons/round-description-24px.svg";
+import FormLogo from "./components/icons/round-description-24px.svg";
 import {
     PbEditorPageElementAdvancedSettingsPlugin,
     PbEditorPageElementPlugin

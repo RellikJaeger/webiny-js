@@ -9,8 +9,8 @@ import {
 } from "@webiny/storybook-utils/Story";
 import readme from "./README.md";
 
-import { ReactComponent as BaselineDoneIcon } from "./icons/baseline-done-24px.svg";
-import { ReactComponent as BaselineEmailIcon } from "./icons/baseline-email-24px.svg";
+import BaselineDoneIcon from "./icons/baseline-done-24px.svg";
+import BaselineEmailIcon from "./icons/baseline-email-24px.svg";
 import { Chip, ChipIcon, Chips } from "./index";
 
 const story = storiesOf("Components/Chips", module);

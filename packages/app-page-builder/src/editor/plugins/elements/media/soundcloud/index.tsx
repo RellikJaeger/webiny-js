@@ -7,8 +7,8 @@ import {
     createEmbedPlugin,
     createEmbedSettingsPlugin
 } from "./../../utils/oembed/createEmbedPlugin";
-import { ReactComponent as MediaIcon } from "./../../../elementGroups/media/round-music_video-24px.svg";
-import { ReactComponent as LogoIcon } from "./soundcloud-brands.svg";
+import MediaIcon from "./../../../elementGroups/media/round-music_video-24px.svg";
+import LogoIcon from "./soundcloud-brands.svg";
 import { validation } from "@webiny/validation";
 
 const PreviewBox = styled("div")({

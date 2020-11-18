@@ -5,8 +5,8 @@ import { Dialog, DialogTitle, DialogContent } from "@webiny/ui/Dialog";
 import { useCms } from "@webiny/app-headless-cms/admin/hooks";
 import { ButtonDefault, ButtonIcon } from "@webiny/ui/Button";
 import { useRouter } from "@webiny/react-router";
-import { ReactComponent as DoneIcon } from "@webiny/app-headless-cms/admin/icons/done-24px.svg";
-import { ReactComponent as ForwardIcon } from "@webiny/app-headless-cms/admin/icons/arrow_forward-24px.svg";
+import DoneIcon from "@webiny/app-headless-cms/admin/icons/done-24px.svg";
+import ForwardIcon from "@webiny/app-headless-cms/admin/icons/arrow_forward-24px.svg";
 
 import {
     List,

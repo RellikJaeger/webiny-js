@@ -1,7 +1,5 @@
 import * as React from "react";
 import { default as RcTooltip } from "rc-tooltip";
-import "rc-tooltip/assets/bootstrap_white.css";
-import "./style.scss";
 
 type TooltipProps = {
     // A component (eg. button) which will trigger the tooltip.

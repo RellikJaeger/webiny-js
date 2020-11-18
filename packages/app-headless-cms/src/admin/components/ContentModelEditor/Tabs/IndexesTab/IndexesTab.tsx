@@ -14,7 +14,7 @@ import {
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
 import { DeleteIcon } from "@webiny/ui/List/DataList/icons";
 import { ButtonDefault, ButtonIcon } from "@webiny/ui/Button";
-import { ReactComponent as AddIcon } from "@webiny/app-admin/assets/icons/round-add-24px.svg";
+import AddIcon from "@webiny/app-admin/assets/icons/round-add-24px.svg";
 import NewIndexDialog from "./NewIndexDialog";
 import { i18n } from "@webiny/app/i18n";
 import TimeAgo from "timeago-react";

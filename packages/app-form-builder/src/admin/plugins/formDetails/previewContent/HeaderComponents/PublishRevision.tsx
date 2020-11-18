@@ -1,8 +1,8 @@
 import React from "react";
 import { IconButton } from "@webiny/ui/Button";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import { ReactComponent as PublishIcon } from "@webiny/app-form-builder/admin/icons/publish.svg";
-import { ReactComponent as UnpublishIcon } from "@webiny/app-form-builder/admin/icons/unpublish.svg";
+import PublishIcon from "@webiny/app-form-builder/admin/icons/publish.svg";
+import UnpublishIcon from "@webiny/app-form-builder/admin/icons/unpublish.svg";
 import { PUBLISH_REVISION, UNPUBLISH_REVISION } from "@webiny/app-form-builder/admin/viewsGraphql";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
 import { useApolloClient } from "react-apollo";

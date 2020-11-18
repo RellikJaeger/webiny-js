@@ -1,6 +1,5 @@
 import * as React from "react";
 import aos from "aos";
-import "aos/dist/aos.css";
 import { throttle, once } from "lodash";
 
 const init = once(() => setTimeout(aos.init, 500));

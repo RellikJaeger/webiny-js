@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as NumberIcon } from "./icons/round-looks_3-24px.svg";
+import NumberIcon from "./icons/round-looks_3-24px.svg";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { I18NInput } from "@webiny/app-i18n/admin/components";
 import { FbBuilderFieldPlugin } from "@webiny/app-form-builder/types";

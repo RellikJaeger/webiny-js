@@ -7,10 +7,10 @@ import {
     createEmbedPlugin,
     createEmbedSettingsPlugin
 } from "./../../utils/oembed/createEmbedPlugin";
-import { ReactComponent as MediaIcon } from "./../../../elementGroups/media/round-music_video-24px.svg";
+import MediaIcon from "./../../../elementGroups/media/round-music_video-24px.svg";
 import VimeoEmbed from "./VimeoEmbed";
 import { validation } from "@webiny/validation";
-import { ReactComponent as LogoIcon } from "./vimeo-v-brands.svg";
+import LogoIcon from "./vimeo-v-brands.svg";
 
 const PreviewBox = styled("div")({
     textAlign: "center",

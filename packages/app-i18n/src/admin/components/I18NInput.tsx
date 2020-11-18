@@ -2,7 +2,7 @@ import React, { useState, useCallback, useMemo } from "react";
 import { Icon } from "@webiny/ui/Icon";
 import { Input } from "@webiny/ui/Input";
 import I18NInputLocalesOverlay from "./I18NInputLocalesOverlay";
-import { ReactComponent as I18NIcon } from "./icons/round-translate-24px.svg";
+import I18NIcon from "./icons/round-translate-24px.svg";
 import { css } from "emotion";
 import { useI18N } from "@webiny/app-i18n/hooks/useI18N";
 import { Tooltip } from "@webiny/ui/Tooltip";

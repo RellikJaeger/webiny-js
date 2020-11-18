@@ -10,7 +10,7 @@ import { TriggersTab } from "./Tabs/TriggersTab";
 import { PreviewTab } from "./Tabs/PreviewTab";
 import { Fields } from "./Fields";
 
-import { ReactComponent as FormIcon } from "./icons/round-assignment-24px.svg";
+import FormIcon from "./icons/round-assignment-24px.svg";
 
 const ContentContainer = styled("div")({
     paddingTop: 65

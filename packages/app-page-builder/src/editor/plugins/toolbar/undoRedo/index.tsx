@@ -2,8 +2,8 @@ import platform from "platform";
 import React from "react";
 import { dispatch } from "@webiny/app-page-builder/editor/redux";
 import { ActionCreators } from "redux-undo";
-import { ReactComponent as UndoIcon } from "@webiny/app-page-builder/editor/assets/icons/undo-icon.svg";
-import { ReactComponent as RedoIcon } from "@webiny/app-page-builder/editor/assets/icons/redo-icon.svg";
+import UndoIcon from "@webiny/app-page-builder/editor/assets/icons/undo-icon.svg";
+import RedoIcon from "@webiny/app-page-builder/editor/assets/icons/redo-icon.svg";
 import Action from "../Action";
 import { PbEditorToolbarBottomPlugin } from "@webiny/app-page-builder/types";
 

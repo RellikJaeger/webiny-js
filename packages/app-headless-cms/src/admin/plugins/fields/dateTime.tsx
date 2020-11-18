@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as DateTimeIcon } from "./icons/schedule-black-24px.svg";
+import DateTimeIcon from "./icons/schedule-black-24px.svg";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { Select } from "@webiny/ui/Select";
 import { I18NInput } from "@webiny/app-i18n/admin/components";

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { i18n } from "@webiny/app/i18n";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
 import { DeleteIcon } from "@webiny/ui/List/DataList/icons";
-import { ReactComponent as InformationIcon } from "../../icons/info.svg";
+import InformationIcon from "../../icons/info.svg";
 import { css } from "emotion";
 import { useCrud } from "@webiny/app-admin/hooks/useCrud";
 import { Typography } from "@webiny/ui/Typography";

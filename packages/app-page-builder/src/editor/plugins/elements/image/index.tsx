@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { getPlugins } from "@webiny/plugins";
 import { ELEMENT_CREATED } from "@webiny/app-page-builder/editor/actions";
-import { ReactComponent as ImageIcon } from "./round-image-24px.svg";
+import ImageIcon from "./round-image-24px.svg";
 import ImageSettings from "./ImageSettings";
 import Image from "./Image";
 import Action from "../../elementSettings/components/Action";

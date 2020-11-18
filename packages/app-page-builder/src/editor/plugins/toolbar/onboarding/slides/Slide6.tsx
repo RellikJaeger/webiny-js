@@ -5,12 +5,12 @@ import classnames from "classnames";
 
 import SlideOutline from "./SlideOutline";
 
-import { ReactComponent as BlocksIcon } from "../assets/slide-6-icon.svg";
-import { ReactComponent as HandIcon } from "../assets/hand-icon.svg";
-import { ReactComponent as BlockMock } from "../assets/block-mock.svg";
-import { ReactComponent as Hover } from "../assets/slide-6-hover.svg";
-import { ReactComponent as Dialog } from "../assets/slide-6-dialog.svg";
-import { ReactComponent as Toolbar } from "../assets/slide-6-toolbar.svg";
+import BlocksIcon from "../assets/slide-6-icon.svg";
+import HandIcon from "../assets/hand-icon.svg";
+import BlockMock from "../assets/block-mock.svg";
+import Hover from "../assets/slide-6-hover.svg";
+import Dialog from "../assets/slide-6-dialog.svg";
+import Toolbar from "../assets/slide-6-toolbar.svg";
 
 const handPulsateSlide6 = keyframes`
     0% { 

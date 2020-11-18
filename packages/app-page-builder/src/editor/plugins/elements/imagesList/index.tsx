@@ -9,9 +9,9 @@ import ImagesListImagesSettings from "./ImagesListImagesSettings";
 import ImagesListDesignSettings from "./ImagesListDesignSettings";
 import styled from "@emotion/styled";
 
-import { ReactComponent as DesignIcon } from "./icons/round-style-24px.svg";
-import { ReactComponent as ImageGalleryIcon } from "./icons/round-photo_library-24px.svg";
-import { ReactComponent as ImagesIcon } from "@webiny/app-page-builder/admin/assets/round-photo_library-24px.svg";
+import DesignIcon from "./icons/round-style-24px.svg";
+import ImageGalleryIcon from "./icons/round-photo_library-24px.svg";
+import ImagesIcon from "@webiny/app-page-builder/admin/assets/round-photo_library-24px.svg";
 
 export default () => {
     const PreviewBox = styled("div")({

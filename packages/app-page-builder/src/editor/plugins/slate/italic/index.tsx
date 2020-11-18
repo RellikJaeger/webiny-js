@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as FormatItalicIcon } from "@webiny/app-page-builder/editor/assets/icons/format_italic.svg";
+import FormatItalicIcon from "@webiny/app-page-builder/editor/assets/icons/format_italic.svg";
 import { isKeyHotkey } from "is-hotkey";
 import {
     PbEditorSlateEditorPlugin,

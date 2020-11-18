@@ -2,7 +2,7 @@ import React from "react";
 import { Tooltip } from "@webiny/ui/Tooltip";
 import { IconButton } from "@webiny/ui/Button";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
-import { ReactComponent as DeleteIcon } from "../../../components/FileManager/icons/delete.svg";
+import DeleteIcon from "../../../components/FileManager/icons/delete.svg";
 import { useMutation } from "react-apollo";
 import gql from "graphql-tag";
 import { i18n } from "@webiny/app/i18n";

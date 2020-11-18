@@ -1,7 +1,7 @@
 import React from "react";
 import { AccordionItem } from "@webiny/ui/Accordion";
 import { AdminAppPermissionRendererPlugin } from "@webiny/app-admin/types";
-import { ReactComponent as FormBuilderIcon } from "@webiny/app-form-builder/admin/icons/round-ballot-24px.svg";
+import FormBuilderIcon from "@webiny/app-form-builder/admin/icons/round-ballot-24px.svg";
 import { FormBuilderPermissions } from "./FormBuilderPermissions";
 import { i18n } from "@webiny/app/i18n";
 

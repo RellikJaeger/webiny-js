@@ -16,7 +16,7 @@ import { List, ListItem, ListItemMeta } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";
 import { Typography } from "@webiny/ui/Typography";
 import { ButtonFloating } from "@webiny/ui/Button";
-import { ReactComponent as AddIcon } from "@webiny/app-page-builder/editor/assets/icons/add.svg";
+import AddIcon from "@webiny/app-page-builder/editor/assets/icons/add.svg";
 import {
     PbEditorPageElementGroupPlugin,
     PbEditorPageElementPlugin

@@ -6,7 +6,7 @@ import { get, cloneDeep } from "lodash";
 import { Chips, Chip } from "@webiny/ui/Chips";
 import { Tags as TagsComponent } from "@webiny/ui/Tags";
 import { UPDATE_FILE, LIST_FILES, LIST_TAGS } from "./../graphql";
-import { ReactComponent as EditIcon } from "./../icons/round-edit-24px.svg";
+import EditIcon from "./../icons/round-edit-24px.svg";
 import { useFileManager } from "./../FileManagerContext";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
 import { ButtonSecondary, ButtonPrimary } from "@webiny/ui/Button";

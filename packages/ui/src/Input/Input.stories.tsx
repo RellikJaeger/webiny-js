@@ -9,10 +9,10 @@ import {
 } from "@webiny/storybook-utils/Story";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 import readme from "./../Input/README.md";
-import { ReactComponent as AutoRenewIcon } from "./svg/baseline-autorenew-24px.svg";
-import { ReactComponent as CloudDoneIcon } from "./svg/baseline-cloud_done-24px.svg";
-import { ReactComponent as BaselineDeleteIcon } from "./svg/baseline-delete-24px.svg";
-import { ReactComponent as BaselineDoneIcon } from "./svg/baseline-done-24px.svg";
+import AutoRenewIcon from "./svg/baseline-autorenew-24px.svg";
+import CloudDoneIcon from "./svg/baseline-cloud_done-24px.svg";
+import BaselineDeleteIcon from "./svg/baseline-delete-24px.svg";
+import BaselineDoneIcon from "./svg/baseline-done-24px.svg";
 
 import { Form } from "@webiny/form";
 import { Input } from "./Input";

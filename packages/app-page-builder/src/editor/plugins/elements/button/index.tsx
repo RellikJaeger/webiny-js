@@ -5,7 +5,7 @@ import {
     PbEditorPageElementPlugin,
     PbEditorPageElementSettingsPlugin
 } from "@webiny/app-page-builder/types";
-import { ReactComponent as ButtonIcon } from "./round-toggle_on-24px.svg";
+import ButtonIcon from "./round-toggle_on-24px.svg";
 import ButtonSettings from "./ButtonSettings";
 import Button from "./Button";
 import Action from "../../elementSettings/components/Action";

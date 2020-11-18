@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as SignOutIcon } from "../../assets/icons/round-lock_open-24px.svg";
+import SignOutIcon from "../../assets/icons/round-lock_open-24px.svg";
 import { ListItem, ListItemGraphic } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";
 import { useSecurity } from "@webiny/app-security/hooks/useSecurity";

@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as MarginIcon } from "@webiny/app-page-builder/editor/assets/icons/fullscreen.svg";
+import MarginIcon from "@webiny/app-page-builder/editor/assets/icons/fullscreen.svg";
 import Settings from "../components/PMSettings";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";
