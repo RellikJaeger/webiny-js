@@ -1,6 +1,6 @@
 import { plugins } from "@webiny/plugins";
 import { WebinyInitPlugin } from "@webiny/app/types";
-// import welcomeScreenPlugins from "@webiny/app-plugin-admin-welcome-screen";
+import welcomeScreenPlugins from "@webiny/app-plugin-admin-welcome-screen";
 import routeNotFound from "./routeNotFound";
 import basePlugins from "./base";
 import adminPlugins from "./admin";
@@ -24,7 +24,7 @@ plugins.register([
     /**
      * Renders a welcome screen with useful links at "/".
      */
-    // welcomeScreenPlugins(),
+    welcomeScreenPlugins(),
     /**
      * Handles location paths that don't have a corresponding route.
      */
