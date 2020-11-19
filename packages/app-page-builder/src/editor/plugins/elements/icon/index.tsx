@@ -1,5 +1,5 @@
 import React from "react";
-import IconSvg from "./round-star_border-24px.svg";
+import { ReactComponent as IconSvg } from "./round-star_border-24px.svg";
 import IconSettings from "./IconSettings";
 import styled from "@emotion/styled";
 import Icon from "./Icon";

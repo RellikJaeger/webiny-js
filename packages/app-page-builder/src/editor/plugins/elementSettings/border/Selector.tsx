@@ -6,10 +6,10 @@ import { Typography } from "@webiny/ui/Typography";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { IconButton } from "@webiny/ui/Button";
 import { getActiveElement } from "@webiny/app-page-builder/editor/selectors";
-import TopIcon from "./icons/round-border_top-24px.svg";
-import RightIcon from "./icons/round-border_right-24px.svg";
-import BottomIcon from "./icons/round-border_bottom-24px.svg";
-import LeftIcon from "./icons/round-border_left-24px.svg";
+import { ReactComponent as TopIcon } from "./icons/round-border_top-24px.svg";
+import { ReactComponent as RightIcon } from "./icons/round-border_right-24px.svg";
+import { ReactComponent as BottomIcon } from "./icons/round-border_bottom-24px.svg";
+import { ReactComponent as LeftIcon } from "./icons/round-border_left-24px.svg";
 
 type SelectorProps = {
     label: string;

@@ -1,8 +1,8 @@
 import React, { SyntheticEvent } from "react";
 import styled from "@emotion/styled";
 import { css } from "emotion";
-import LogoIcon from "../assets/logo.svg";
-import EditorMockIcon from "../assets/editor-mock.svg";
+import { ReactComponent as LogoIcon } from "../assets/logo.svg";
+import { ReactComponent as EditorMockIcon } from "../assets/editor-mock.svg";
 import { Typography } from "@webiny/ui/Typography";
 import { ButtonPrimary } from "@webiny/ui/Button";
 

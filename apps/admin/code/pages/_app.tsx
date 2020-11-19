@@ -8,6 +8,9 @@ import "@webiny/ui/List/CollapsibleList/index.css";
 import "@webiny/ui/TopProgressBar/style.scss";
 import "@webiny/ui/Tooltip/style.scss";
 
+// Import styles which include custom theme styles
+import "../App.scss";
+
 export default function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
 }

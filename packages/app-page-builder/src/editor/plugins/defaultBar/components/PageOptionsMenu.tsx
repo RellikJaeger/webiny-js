@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu } from "@webiny/ui/Menu";
 import { IconButton } from "@webiny/ui/Button";
-import MoreVerticalIcon from "@webiny/app-page-builder/editor/assets/icons/more_vert.svg";
+import { ReactComponent as MoreVerticalIcon } from "@webiny/app-page-builder/editor/assets/icons/more_vert.svg";
 import { getPlugins } from "@webiny/plugins";
 import { css } from "emotion";
 import { PbEditorDefaultBarRightPageOptionsPlugin } from "@webiny/app-page-builder/types";

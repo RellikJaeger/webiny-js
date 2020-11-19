@@ -12,10 +12,10 @@ import readme from "./../List/README.md";
 import { Icon } from "./../Icon";
 import { ButtonPrimary } from "./../Button";
 
-import AutoRenewIcon from "./icons/baseline-autorenew-24px.svg";
-import CloudDoneIcon from "./icons/baseline-cloud_done-24px.svg";
-import BaselineDeleteIcon from "./icons/baseline-delete-24px.svg";
-import BaselineDoneIcon from "./icons/baseline-done-24px.svg";
+import { ReactComponent as AutoRenewIcon } from "./icons/baseline-autorenew-24px.svg";
+import { ReactComponent as CloudDoneIcon } from "./icons/baseline-cloud_done-24px.svg";
+import { ReactComponent as BaselineDeleteIcon } from "./icons/baseline-delete-24px.svg";
+import { ReactComponent as BaselineDoneIcon } from "./icons/baseline-done-24px.svg";
 
 import {
     List,

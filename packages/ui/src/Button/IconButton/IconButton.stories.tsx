@@ -2,8 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { Story, StoryReadme, StorySandbox } from "@webiny/storybook-utils/Story";
 import readme from "./README.md";
-import CloudIcon from "./../assets/baseline-cloud_done-24px.svg";
-import MoreIcon from "./../assets/round-more_vert-24px.svg";
+import { ReactComponent as CloudIcon } from "./../assets/baseline-cloud_done-24px.svg";
+import { ReactComponent as MoreIcon } from "./../assets/round-more_vert-24px.svg";
 import { Menu, MenuItem } from "./../../Menu/index";
 
 import { IconButton } from "./IconButton";

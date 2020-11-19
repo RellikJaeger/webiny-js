@@ -15,12 +15,11 @@ import { NetworkError } from "./NetworkError";
 import { Telemetry } from "./Telemetry";
 import { getIdentityData } from "./getIdentityData";
 
+import "../plugins";
+
 // import "cross-fetch/polyfill";
 // import "core-js/stable";
 // import "regenerator-runtime/runtime";
-
-// Import styles which include custom theme styles
-// import "./App.scss";
 
 
 const App = () => (

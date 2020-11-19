@@ -6,7 +6,7 @@ import { Tabs, Tab } from "@webiny/ui/Tabs";
 import { updateElement } from "@webiny/app-page-builder/editor/actions";
 import { getActiveElement } from "@webiny/app-page-builder/editor/selectors";
 import Input from "@webiny/app-page-builder/editor/plugins/elementSettings/components/Input";
-import ImageIcon from "./round-image-24px.svg";
+import { ReactComponent as ImageIcon } from "./round-image-24px.svg";
 
 const ImageSettings = ({ element, updateElement }) => {
     const { image = {} } = get(element, "data", {});

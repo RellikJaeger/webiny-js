@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import FileUpload from "./FileUpload";
-import fileIcon from "../../fields/icons/round_insert_drive_file-24px.svg";
+import { ReactComponent as fileIcon } from "../../fields/icons/round_insert_drive_file-24px.svg";
 import { createRenderImagePreview, imageWrapperStyles, imageExtensions } from "./utils";
 
 import { i18n } from "@webiny/app/i18n";

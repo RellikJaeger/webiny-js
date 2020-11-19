@@ -1,5 +1,5 @@
 import React from "react";
-import FormIcon from "./round-developer_board-24px.svg";
+import { ReactComponent as FormIcon } from "./round-developer_board-24px.svg";
 import { PbEditorPageElementGroupPlugin } from "@webiny/app-page-builder/types";
 
 export default {

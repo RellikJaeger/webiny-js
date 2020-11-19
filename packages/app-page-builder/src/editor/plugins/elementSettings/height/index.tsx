@@ -1,5 +1,5 @@
 import React from "react";
-import HeightIcon from "./arrows-alt-v-solid.svg";
+import { ReactComponent as HeightIcon } from "./arrows-alt-v-solid.svg";
 import Settings from "./Settings";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

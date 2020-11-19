@@ -3,7 +3,7 @@ import { usePublishRevisionHandler } from "../../utils/usePublishRevisionHandler
 import PublishRevisionDialog from "./PublishRevisionDialog";
 import { IconButton } from "@webiny/ui/Button";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import PublishIcon from "@webiny/app-page-builder/admin/assets/round-publish-24px.svg";
+import { ReactComponent as PublishIcon } from "@webiny/app-page-builder/admin/assets/round-publish-24px.svg";
 import { get } from "lodash";
 
 function getPublishSuggestion(page, revisions) {

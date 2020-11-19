@@ -7,7 +7,7 @@ import { getPlugin, getPlugins } from "@webiny/plugins";
 import { getActiveElement } from "@webiny/app-page-builder/editor/selectors";
 import { useKeyHandler } from "@webiny/app-page-builder/editor/hooks/useKeyHandler";
 import Menu from "./components/Menu";
-import NavigateBeforeIcon from "@webiny/app-page-builder/editor/assets/icons/navigate_before.svg";
+import { ReactComponent as NavigateBeforeIcon } from "@webiny/app-page-builder/editor/assets/icons/navigate_before.svg";
 import { PbEditorPageElementPlugin } from "@webiny/app-page-builder/types";
 import { userSettingsPlugins } from "@webiny/app-page-builder/editor/utils";
 

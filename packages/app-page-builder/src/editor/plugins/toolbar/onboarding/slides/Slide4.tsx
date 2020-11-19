@@ -5,9 +5,9 @@ import classnames from "classnames";
 
 import SlideOutline from "./SlideOutline";
 
-import BlocksIcon from "../assets/slide-4-icon.svg";
-import BlockMock from "../assets/block-mock.svg";
-import Hover from "../assets/slide-4-hover.svg";
+import { ReactComponent as BlocksIcon } from "../assets/slide-4-icon.svg";
+import { ReactComponent as BlockMock } from "../assets/block-mock.svg";
+import { ReactComponent as Hover } from "../assets/slide-4-hover.svg";
 
 const hoverAppearSlide4 = keyframes`
     0% { 

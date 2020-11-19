@@ -9,8 +9,8 @@ import {
 } from "@webiny/storybook-utils/Story";
 import readme from "./../Tabs/README.md";
 
-import DeleteIcon from "./svg/baseline-delete-24px.svg";
-import DoneIcon from "./svg/baseline-done-24px.svg";
+import { ReactComponent as DeleteIcon } from "./svg/baseline-delete-24px.svg";
+import { ReactComponent as DoneIcon } from "./svg/baseline-done-24px.svg";
 import { withKnobs } from "@storybook/addon-knobs";
 import { Tabs, Tab } from "./index";
 

@@ -6,7 +6,7 @@ import { css } from "emotion";
 import { ButtonSecondary, ButtonPrimary } from "@webiny/ui/Button";
 import { Input } from "@webiny/ui/Input";
 import { Form } from "@webiny/form";
-import EditIcon from "./../icons/round-edit-24px.svg";
+import { ReactComponent as EditIcon } from "./../icons/round-edit-24px.svg";
 import { UPDATE_FILE, LIST_FILES } from "./../graphql";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
 import { useFileManager } from "./../FileManagerContext";

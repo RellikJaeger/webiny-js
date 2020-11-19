@@ -4,11 +4,11 @@ import { Tab } from "@webiny/ui/Tabs";
 import { Input } from "@webiny/ui/Input";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { createEmbedSettingsPlugin, createEmbedPlugin } from "./../../utils/oembed";
-import MediaIcon from "./../../../elementGroups/media/round-music_video-24px.svg";
+import { ReactComponent as MediaIcon } from "./../../../elementGroups/media/round-music_video-24px.svg";
 import YoutubeEmbed from "./YoutubeEmbed";
 import placeholder from "./placeholder.png";
 import { validation } from "@webiny/validation";
-import LogoIcon from "./youtube-brands.svg";
+import { ReactComponent as LogoIcon } from "./youtube-brands.svg";
 
 const PreviewBox = styled("div")({
     textAlign: "center",

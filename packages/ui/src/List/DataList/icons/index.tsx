@@ -1,12 +1,12 @@
 import * as React from "react";
 import { IconButton, IconButtonProps as BaseIconProps } from "@webiny/ui/Button";
-import AutoRenew from "./baseline-autorenew-24px.svg";
-import Pen from "./baseline-edit-24px.svg";
-import Delete from "./baseline-delete-24px.svg";
-import Sort from "./baseline-sort-24px.svg";
-import NavigateBefore from "./baseline-navigate_before-24px.svg";
-import NavigateNext from "./baseline-navigate_next-24px.svg";
-import TuneIcon from "./baseline-tune-24px.svg";
+import { ReactComponent as AutoRenew } from "./baseline-autorenew-24px.svg";
+import { ReactComponent as Pen } from "./baseline-edit-24px.svg";
+import { ReactComponent as Delete } from "./baseline-delete-24px.svg";
+import { ReactComponent as Sort } from "./baseline-sort-24px.svg";
+import { ReactComponent as NavigateBefore } from "./baseline-navigate_before-24px.svg";
+import { ReactComponent as NavigateNext } from "./baseline-navigate_next-24px.svg";
+import { ReactComponent as TuneIcon } from "./baseline-tune-24px.svg";
 
 type IconButtonProps = Omit<BaseIconProps, "icon"> & {
     icon?: React.ReactElement<any>;

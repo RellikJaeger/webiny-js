@@ -23,8 +23,8 @@ import styled from "@emotion/styled";
 import { useHotkeys } from "react-hotkeyz";
 import { useFileManager } from "./FileManagerContext";
 import { i18n } from "@webiny/app/i18n";
-import SearchIcon from "./icons/round-search-24px.svg";
-import UploadIcon from "./icons/round-cloud_upload-24px.svg";
+import { ReactComponent as SearchIcon } from "./icons/round-search-24px.svg";
+import { ReactComponent as UploadIcon } from "./icons/round-cloud_upload-24px.svg";
 
 const t = i18n.ns("app-admin/file-manager/file-manager-view");
 

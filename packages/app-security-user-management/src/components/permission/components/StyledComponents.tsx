@@ -2,7 +2,7 @@ import React from "react";
 import { css } from "emotion";
 import { IconButton } from "@webiny/ui/Button";
 import { Typography } from "@webiny/ui/Typography";
-import HelpIcon from "@webiny/app-admin/assets/icons/round-help-24px.svg";
+import { ReactComponent as HelpIcon } from "@webiny/app-admin/assets/icons/round-help-24px.svg";
 
 export const flexClass = css({
     display: "flex",

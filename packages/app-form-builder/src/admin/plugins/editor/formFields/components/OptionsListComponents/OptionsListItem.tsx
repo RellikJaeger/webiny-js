@@ -7,9 +7,9 @@ import { css } from "emotion";
 import { IconButton } from "@webiny/ui/Button";
 
 import { Switch } from "@webiny/ui/Switch";
-import EditIcon from "@webiny/app-form-builder/admin/icons/edit.svg";
-import DeleteIcon from "@webiny/app-form-builder/admin/icons/delete.svg";
-import TranslateIcon from "@webiny/app-form-builder/admin/icons/round-translate-24px.svg";
+import { ReactComponent as EditIcon } from "@webiny/app-form-builder/admin/icons/edit.svg";
+import { ReactComponent as DeleteIcon } from "@webiny/app-form-builder/admin/icons/delete.svg";
+import { ReactComponent as TranslateIcon } from "@webiny/app-form-builder/admin/icons/round-translate-24px.svg";
 import { BindComponent } from "@webiny/form/Bind";
 
 const optionsListItemLeft = css({

@@ -6,7 +6,7 @@ import { TopAppBarSecondary, TopAppBarSection } from "@webiny/ui/TopAppBar";
 import { IconButton } from "@webiny/ui/Button";
 import noop from "lodash/noop";
 
-import CloseIcon from "./icons/close.svg";
+import { ReactComponent as CloseIcon } from "./icons/close.svg";
 
 const OverlayLayoutWrapper = styled("div")({
     position: "fixed",

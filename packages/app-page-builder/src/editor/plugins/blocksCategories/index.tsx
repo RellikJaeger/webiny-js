@@ -1,12 +1,12 @@
 import React from "react";
 import { PbEditorBlockCategoryPlugin } from "@webiny/app-page-builder/types";
-import GeneralIcon from "./icons/round-gesture-24px.svg";
-import CtaIcon from "./icons/round-notifications_active-24px.svg";
-import ContentIcon from "./icons/round-view_quilt-24px.svg";
-import FeaturesIcon from "./icons/round-stars-24px.svg";
-import HeaderIcon from "./icons/round-home-24px.svg";
-import TeamIcon from "./icons/round-group_work-24px.svg";
-import TestimonialIcon from "./icons/round-record_voice_over-24px.svg";
+import { ReactComponent as GeneralIcon } from "./icons/round-gesture-24px.svg";
+import { ReactComponent as CtaIcon } from "./icons/round-notifications_active-24px.svg";
+import { ReactComponent as ContentIcon } from "./icons/round-view_quilt-24px.svg";
+import { ReactComponent as FeaturesIcon } from "./icons/round-stars-24px.svg";
+import { ReactComponent as HeaderIcon } from "./icons/round-home-24px.svg";
+import { ReactComponent as TeamIcon } from "./icons/round-group_work-24px.svg";
+import { ReactComponent as TestimonialIcon } from "./icons/round-record_voice_over-24px.svg";
 
 const plugins: PbEditorBlockCategoryPlugin[] = [
     {

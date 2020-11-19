@@ -3,7 +3,7 @@ import { IconButton } from "@webiny/ui/Button";
 import { useRouter } from "@webiny/react-router";
 import { useApolloClient } from "react-apollo";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import EditIcon from "@webiny/app-page-builder/admin/assets/edit.svg";
+import { ReactComponent as EditIcon } from "@webiny/app-page-builder/admin/assets/edit.svg";
 import { CREATE_REVISION_FORM } from "@webiny/app-page-builder/admin/graphql/pages";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
 import { get } from "lodash";

@@ -1,5 +1,5 @@
 import * as React from "react";
-import UnderlineIcon from "@webiny/app-page-builder/editor/assets/icons/format_underlined.svg";
+import { ReactComponent as UnderlineIcon } from "@webiny/app-page-builder/editor/assets/icons/format_underlined.svg";
 import { isKeyHotkey } from "is-hotkey";
 import {
     PbEditorSlateEditorPlugin,

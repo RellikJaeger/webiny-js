@@ -15,19 +15,19 @@ import { Icon } from "@webiny/ui/Icon";
 import { MenuItem, Menu, MenuDivider } from "@webiny/ui/Menu";
 import { ConfirmationDialog } from "@webiny/ui/ConfirmationDialog";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import MoreVerticalIcon from "@webiny/app-page-builder/admin/assets/more_vert.svg";
-import LockIcon from "@webiny/app-page-builder/admin/assets/lock.svg";
-import BeenHereIcon from "@webiny/app-page-builder/admin/assets/beenhere.svg";
-import GestureIcon from "@webiny/app-page-builder/admin/assets/gesture.svg";
+import { ReactComponent as MoreVerticalIcon } from "@webiny/app-page-builder/admin/assets/more_vert.svg";
+import { ReactComponent as LockIcon } from "@webiny/app-page-builder/admin/assets/lock.svg";
+import { ReactComponent as BeenHereIcon } from "@webiny/app-page-builder/admin/assets/beenhere.svg";
+import { ReactComponent as GestureIcon } from "@webiny/app-page-builder/admin/assets/gesture.svg";
 import { useRevisionHandlers } from "./useRevisionHandlers";
 import { useConfigureDomainDialog } from "@webiny/app-page-builder/admin/hooks/useConfigureDomain";
 import { usePageBuilderSettings } from "@webiny/app-page-builder/admin/hooks/usePageBuilderSettings";
 import { useSiteStatus } from "@webiny/app-page-builder/admin/hooks/useSiteStatus";
-import AddIcon from "@webiny/app-page-builder/admin/assets/add.svg";
-import EditIcon from "@webiny/app-page-builder/admin/assets/edit.svg";
-import PublishIcon from "@webiny/app-page-builder/admin/assets/round-publish-24px.svg";
-import DeleteIcon from "@webiny/app-page-builder/admin/assets/delete.svg";
-import PreviewIcon from "@webiny/app-page-builder/admin/assets/visibility.svg";
+import { ReactComponent as AddIcon } from "@webiny/app-page-builder/admin/assets/add.svg";
+import { ReactComponent as EditIcon } from "@webiny/app-page-builder/admin/assets/edit.svg";
+import { ReactComponent as PublishIcon } from "@webiny/app-page-builder/admin/assets/round-publish-24px.svg";
+import { ReactComponent as DeleteIcon } from "@webiny/app-page-builder/admin/assets/delete.svg";
+import { ReactComponent as PreviewIcon } from "@webiny/app-page-builder/admin/assets/visibility.svg";
 import { PbPageRevision } from "@webiny/app-page-builder/types";
 
 type RevisionProps = {

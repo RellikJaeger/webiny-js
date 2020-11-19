@@ -1,5 +1,5 @@
 import React from "react";
-import PaddingIcon from "@webiny/app-page-builder/editor/assets/icons/fullscreen_exit.svg";
+import { ReactComponent as PaddingIcon } from "@webiny/app-page-builder/editor/assets/icons/fullscreen_exit.svg";
 import Settings from "../components/PMSettings";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

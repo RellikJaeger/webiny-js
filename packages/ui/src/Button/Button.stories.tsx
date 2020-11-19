@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 import { Story, StoryReadme, StorySandbox } from "@webiny/storybook-utils/Story";
 import readme from "./../Button/README.md";
-import CloudIcon from "./assets/baseline-cloud_done-24px.svg";
+import { ReactComponent as CloudIcon } from "./assets/baseline-cloud_done-24px.svg";
 
 import {
     ButtonPrimary,

@@ -1,6 +1,6 @@
 import React from "react";
 import { ImageEditorTool } from "./types";
-import FlipIcon from "./icons/flip.svg";
+import { ReactComponent as FlipIcon } from "./icons/flip.svg";
 import Cropper from "cropperjs";
 
 import { IconButton, ButtonDefault } from "@webiny/ui/Button";

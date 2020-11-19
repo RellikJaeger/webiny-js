@@ -1,7 +1,7 @@
 import React from "react";
 import { AccordionItem } from "@webiny/ui/Accordion";
 import { AdminAppPermissionRendererPlugin } from "@webiny/app-admin/types";
-import Icon from "./icons/how_to_vote-24px.svg";
+import { ReactComponent as Icon } from "./icons/how_to_vote-24px.svg";
 import { ContentPermissions } from "./ContentPermissions";
 import { i18n } from "@webiny/app/i18n";
 

@@ -5,7 +5,7 @@ import store from "store";
 import { ListItem, ListItemGraphic, ListItemMeta } from "@webiny/ui/List";
 import { Switch } from "@webiny/ui/Switch";
 import { Icon } from "@webiny/ui/Icon";
-import DarkModeIcon from "@webiny/app-admin/assets/icons/round-invert_colors-24px.svg";
+import { ReactComponent as DarkModeIcon } from "@webiny/app-admin/assets/icons/round-invert_colors-24px.svg";
 import { useUi } from "@webiny/app/hooks/useUi";
 import { LOCAL_STORAGE_KEY } from "./DarkModeController";
 

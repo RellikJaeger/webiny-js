@@ -1,6 +1,6 @@
 import React from "react";
-import SendFeedbackIcon from "@webiny/app-admin/assets/icons/round-feedback-24px.svg";
-import OpenInNewIcon from "@webiny/app-admin/assets/icons/round-open_in_new-24px.svg";
+import { ReactComponent as SendFeedbackIcon } from "@webiny/app-admin/assets/icons/round-feedback-24px.svg";
+import { ReactComponent as OpenInNewIcon } from "@webiny/app-admin/assets/icons/round-open_in_new-24px.svg";
 import { css } from "emotion";
 import { ListItem, ListItemGraphic, ListItemMeta } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";

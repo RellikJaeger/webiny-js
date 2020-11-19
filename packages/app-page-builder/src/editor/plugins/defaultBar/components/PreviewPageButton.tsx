@@ -8,7 +8,7 @@ import { usePageBuilderSettings } from "@webiny/app-page-builder/admin/hooks/use
 import { useSiteStatus } from "@webiny/app-page-builder/admin/hooks/useSiteStatus";
 import { ListItemGraphic } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";
-import PreviewIcon from "@webiny/app-page-builder/admin/assets/visibility.svg";
+import { ReactComponent as PreviewIcon } from "@webiny/app-page-builder/admin/assets/visibility.svg";
 
 const openTarget = window.Cypress ? "_self" : "_blank";
 

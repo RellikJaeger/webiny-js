@@ -1,6 +1,6 @@
 import React from "react";
 import { IconButton } from "@webiny/ui/Button";
-import RefreshIcon from "@webiny/app-headless-cms/admin/icons/baseline-autorenew-24px.svg";
+import { ReactComponent as RefreshIcon } from "@webiny/app-headless-cms/admin/icons/baseline-autorenew-24px.svg";
 import { css } from "emotion";
 
 const buttonStyles = css({

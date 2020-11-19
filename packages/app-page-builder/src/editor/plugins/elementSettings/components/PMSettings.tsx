@@ -6,11 +6,11 @@ import { get, isEqual } from "lodash";
 import { set, merge } from "dot-prop-immutable";
 import { updateElement } from "@webiny/app-page-builder/editor/actions";
 import { getActiveElement } from "@webiny/app-page-builder/editor/selectors";
-import BorderOuterIcon from "@webiny/app-page-builder/editor/assets/icons/border_outer.svg";
-import BorderLeftIcon from "@webiny/app-page-builder/editor/assets/icons/border_left.svg";
-import BorderRightIcon from "@webiny/app-page-builder/editor/assets/icons/border_right.svg";
-import BorderTopIcon from "@webiny/app-page-builder/editor/assets/icons/border_top.svg";
-import BorderBottomIcon from "@webiny/app-page-builder/editor/assets/icons/border_bottom.svg";
+import { ReactComponent as BorderOuterIcon } from "@webiny/app-page-builder/editor/assets/icons/border_outer.svg";
+import { ReactComponent as BorderLeftIcon } from "@webiny/app-page-builder/editor/assets/icons/border_left.svg";
+import { ReactComponent as BorderRightIcon } from "@webiny/app-page-builder/editor/assets/icons/border_right.svg";
+import { ReactComponent as BorderTopIcon } from "@webiny/app-page-builder/editor/assets/icons/border_top.svg";
+import { ReactComponent as BorderBottomIcon } from "@webiny/app-page-builder/editor/assets/icons/border_bottom.svg";
 import SliderWithInput from "./SliderWithInput";
 import Footer from "./Footer";
 

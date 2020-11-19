@@ -3,9 +3,9 @@ import styled from "@emotion/styled";
 import { Typography } from "@webiny/ui/Typography";
 import { List, ListItem, ListItemGraphic, ListItemMeta } from "@webiny/ui/List";
 
-import EditorMockIcon from "../assets/editor-mock.svg";
-import LearnMoreHelpIcon from "../assets/help-learn-more.svg";
-import LearnMoreRightArrowIcon from "../assets/learn-more-right-arrow.svg";
+import { ReactComponent as EditorMockIcon } from "../assets/editor-mock.svg";
+import { ReactComponent as LearnMoreHelpIcon } from "../assets/help-learn-more.svg";
+import { ReactComponent as LearnMoreRightArrowIcon } from "../assets/learn-more-right-arrow.svg";
 
 const SlideContainer = styled("div")({
     display: "flex",

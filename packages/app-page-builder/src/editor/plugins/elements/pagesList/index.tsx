@@ -4,9 +4,9 @@ import {
     PbEditorPageElementAdvancedSettingsPlugin
 } from "@webiny/app-page-builder/types";
 import { Tab } from "@webiny/ui/Tabs";
-import DesignIcon from "./icons/round-style-24px.svg";
-import FilterIcon from "./icons/round-filter_list-24px.svg";
-import PageListIcon from "./page-list-icon.svg";
+import { ReactComponent as DesignIcon } from "./icons/round-style-24px.svg";
+import { ReactComponent as FilterIcon } from "./icons/round-filter_list-24px.svg";
+import { ReactComponent as PageListIcon } from "./page-list-icon.svg";
 import PagesList from "./PagesList";
 import PagesListFilterSettings from "./PagesListFilterSettings";
 import PagesListDesignSettings from "./PagesListDesignSettings";

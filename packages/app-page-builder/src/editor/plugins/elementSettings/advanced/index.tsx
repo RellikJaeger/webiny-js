@@ -5,7 +5,7 @@ import {
     activateElement,
     togglePlugin
 } from "@webiny/app-page-builder/editor/actions";
-import SettingsIcon from "@webiny/app-page-builder/editor/assets/icons/settings.svg";
+import { ReactComponent as SettingsIcon } from "@webiny/app-page-builder/editor/assets/icons/settings.svg";
 import AdvancedSettings from "./AdvancedSettings";
 import Action from "../components/Action";
 import AdvancedAction from "./AdvancedAction";

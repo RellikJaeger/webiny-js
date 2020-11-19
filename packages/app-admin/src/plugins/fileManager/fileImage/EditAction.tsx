@@ -6,7 +6,7 @@ import { Tooltip } from "@webiny/ui/Tooltip";
 import { IconButton } from "@webiny/ui/Button";
 import outputFileSelectionError from "@webiny/app-admin/components/FileManager/outputFileSelectionError";
 import { useSnackbar } from "@webiny/app-admin/hooks/useSnackbar";
-import EditIcon from "./../icons/edit.svg";
+import { ReactComponent as EditIcon } from "./../icons/edit.svg";
 
 function toDataUrl(url) {
     return new Promise(resolve => {

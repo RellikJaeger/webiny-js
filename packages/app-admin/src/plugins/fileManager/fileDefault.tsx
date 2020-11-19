@@ -1,6 +1,6 @@
 import * as React from "react";
 import { AdminFileManagerFileTypePlugin } from "@webiny/app-admin/types";
-import FileIcon from "./icons/round-description-24px.svg";
+import { ReactComponent as FileIcon } from "./icons/round-description-24px.svg";
 
 import { css } from "emotion";
 const style = {

@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from "emotion";
-import Checked from "./icons/round-check_box-24px.svg";
-import InfoIcon from "./icons/round-info-24px.svg";
+import { ReactComponent as Checked } from "./icons/round-check_box-24px.svg";
+import { ReactComponent as InfoIcon } from "./icons/round-info-24px.svg";
 import { Ripple } from "@webiny/ui/Ripple";
 import LazyLoad from "react-lazy-load";
 

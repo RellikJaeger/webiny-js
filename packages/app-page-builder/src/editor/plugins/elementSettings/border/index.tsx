@@ -1,5 +1,5 @@
 import React from "react";
-import BorderIcon from "@webiny/app-page-builder/editor/assets/icons/border_outer.svg";
+import { ReactComponent as BorderIcon } from "@webiny/app-page-builder/editor/assets/icons/border_outer.svg";
 import Settings from "./Settings";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

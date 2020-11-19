@@ -1,5 +1,5 @@
 import React from "react";
-import ImageGroupIcon from "@webiny/app-page-builder/editor/assets/icons/round-collections-24px.svg";
+import { ReactComponent as ImageGroupIcon } from "@webiny/app-page-builder/editor/assets/icons/round-collections-24px.svg";
 import { PbEditorPageElementGroupPlugin } from "@webiny/app-page-builder/types";
 
 const imageGroup: PbEditorPageElementGroupPlugin = {

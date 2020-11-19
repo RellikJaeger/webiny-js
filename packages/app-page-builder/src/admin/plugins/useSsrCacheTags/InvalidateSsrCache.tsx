@@ -1,6 +1,6 @@
 import React from "react";
 import { Icon } from "@webiny/ui/Icon";
-import RefreshIcon from "@webiny/app-page-builder/admin/assets/baseline-autorenew-24px.svg";
+import { ReactComponent as RefreshIcon } from "@webiny/app-page-builder/admin/assets/baseline-autorenew-24px.svg";
 import { ListItemGraphic } from "@webiny/ui/List";
 import { MenuItem } from "@webiny/ui/Menu";
 import { Mutation } from "react-apollo";

@@ -7,7 +7,7 @@ import Input from "./Input";
 import { i18n } from "@webiny/app/i18n";
 const t = i18n.ns("app-headless-cms/admin/fields/date-time");
 import get from "lodash/get";
-import DeleteIcon from "@webiny/app-headless-cms/admin/icons/close.svg";
+import { ReactComponent as DeleteIcon } from "@webiny/app-headless-cms/admin/icons/close.svg";
 import DynamicListMultipleValues from "@webiny/app-headless-cms/admin/plugins/fieldRenderers/DynamicListMultipleValues";
 import { appendTextToLabel } from "@webiny/app-headless-cms/admin/plugins/fieldRenderers/dateTime/utils";
 

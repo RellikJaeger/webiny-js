@@ -3,7 +3,7 @@ import { connect } from "@webiny/app-page-builder/editor/redux";
 import styled from "@emotion/styled";
 import { togglePlugin } from "@webiny/app-page-builder/editor/actions";
 import { ButtonFloating } from "@webiny/ui/Button";
-import AddIcon from "@webiny/app-page-builder/editor/assets/icons/add.svg";
+import { ReactComponent as AddIcon } from "@webiny/app-page-builder/editor/assets/icons/add.svg";
 
 const BottomRight = styled("div")({
     position: "fixed",

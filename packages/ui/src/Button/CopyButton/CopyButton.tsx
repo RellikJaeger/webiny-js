@@ -1,5 +1,5 @@
 import * as React from "react";
-import CopyToClipboardIcon from "../assets/file_copy-24px.svg";
+import { ReactComponent as CopyToClipboardIcon } from "../assets/file_copy-24px.svg";
 import { IconButton } from "../index";
 import { FormComponentProps } from "../../types";
 import { useCallback } from "react";

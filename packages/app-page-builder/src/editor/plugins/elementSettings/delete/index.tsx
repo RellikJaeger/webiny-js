@@ -1,5 +1,5 @@
 import React from "react";
-import DeleteIcon from "@webiny/app-page-builder/editor/assets/icons/delete.svg";
+import { ReactComponent as DeleteIcon } from "@webiny/app-page-builder/editor/assets/icons/delete.svg";
 import DeleteAction from "./DeleteAction";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

@@ -1,5 +1,5 @@
 import React from "react";
-import FavoriteIcon from "@webiny/app-page-builder/editor/assets/icons/round-favorite-24px.svg";
+import { ReactComponent as FavoriteIcon } from "@webiny/app-page-builder/editor/assets/icons/round-favorite-24px.svg";
 import Action from "../components/Action";
 import SaveAction from "./SaveAction";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

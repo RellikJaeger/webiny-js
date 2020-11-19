@@ -3,7 +3,7 @@ import { css } from "emotion";
 import { useRouter } from "@webiny/react-router";
 import { ButtonDefault } from "@webiny/ui/Button";
 import { Icon } from "@webiny/ui/Icon";
-import DownButton from "@webiny/app-headless-cms/admin/icons/round-arrow_drop_down-24px.svg";
+import { ReactComponent as DownButton } from "@webiny/app-headless-cms/admin/icons/round-arrow_drop_down-24px.svg";
 import { Typography } from "@webiny/ui/Typography";
 import { Menu, MenuItem } from "@webiny/ui/Menu";
 import { get } from "lodash";

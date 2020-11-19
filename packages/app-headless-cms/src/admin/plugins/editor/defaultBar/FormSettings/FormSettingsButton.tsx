@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { IconButton } from "@webiny/ui/Button";
 import FormSettings from "./FormSettings";
 
-import SettingsIcon from "./../icons/settings.svg";
+import { ReactComponent as SettingsIcon } from "./../icons/settings.svg";
 
 const FormSettingsButton = () => {
     const [opened, setOpened] = useState(false);

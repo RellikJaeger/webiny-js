@@ -1,5 +1,5 @@
 import React from "react";
-import ShadowIcon from "@webiny/app-page-builder/editor/assets/icons/layers.svg";
+import { ReactComponent as ShadowIcon } from "@webiny/app-page-builder/editor/assets/icons/layers.svg";
 import Settings from "./Settings";
 import Action from "../components/Action";
 import { PbEditorPageElementSettingsPlugin } from "@webiny/app-page-builder/types";

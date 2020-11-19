@@ -9,7 +9,7 @@ import { useConfirmationDialog } from "@webiny/app-admin/hooks/useConfirmationDi
 import { useDialog } from "@webiny/app-admin/hooks/useDialog";
 import { IconButton } from "@webiny/ui/Button";
 import { Tooltip } from "@webiny/ui/Tooltip";
-import DeleteIcon from "@webiny/app-page-builder/admin/assets/delete.svg";
+import { ReactComponent as DeleteIcon } from "@webiny/app-page-builder/admin/assets/delete.svg";
 import { DELETE_PAGE } from "@webiny/app-page-builder/admin/graphql/pages";
 
 const DeletePage = props => {

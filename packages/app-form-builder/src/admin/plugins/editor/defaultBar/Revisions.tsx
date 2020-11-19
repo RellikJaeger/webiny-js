@@ -5,7 +5,7 @@ import { Menu, MenuItem } from "@webiny/ui/Menu";
 import { ButtonDefault } from "@webiny/ui/Button";
 import { Icon } from "@webiny/ui/Icon";
 import { Typography } from "@webiny/ui/Typography";
-import DownButton from "./icons/round-arrow_drop_down-24px.svg";
+import { ReactComponent as DownButton } from "./icons/round-arrow_drop_down-24px.svg";
 import { useFormEditor } from "@webiny/app-form-builder/admin/components/FormEditor/Context";
 
 import { i18n } from "@webiny/app/i18n";

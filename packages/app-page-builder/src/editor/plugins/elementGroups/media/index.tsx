@@ -1,5 +1,5 @@
 import React from "react";
-import MediaIcon from "./round-music_video-24px.svg";
+import { ReactComponent as MediaIcon } from "./round-music_video-24px.svg";
 import { PbEditorPageElementGroupPlugin } from "@webiny/app-page-builder/types";
 
 export default {

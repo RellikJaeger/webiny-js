@@ -5,7 +5,7 @@ import { Input } from "@webiny/ui/Input";
 import { Chips, Chip } from "@webiny/ui/Chips";
 import { getOptionValue, getOptionText, findInAliases } from "./utils";
 
-import BaselineCloseIcon from "./icons/baseline-close-24px.svg";
+import { ReactComponent as BaselineCloseIcon } from "./icons/baseline-close-24px.svg";
 import classNames from "classnames";
 import { Elevation } from "@webiny/ui/Elevation";
 import { Typography } from "@webiny/ui/Typography";

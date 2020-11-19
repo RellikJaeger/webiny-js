@@ -6,8 +6,8 @@ import styled from "@emotion/styled";
 import { css } from "emotion";
 import { Typography } from "@webiny/ui/Typography";
 
-import UpArrow from "./icons/round-keyboard_arrow_up-24px.svg";
-import DownArrow from "./icons/round-keyboard_arrow_down-24px.svg";
+import { ReactComponent as UpArrow } from "./icons/round-keyboard_arrow_up-24px.svg";
+import { ReactComponent as DownArrow } from "./icons/round-keyboard_arrow_down-24px.svg";
 import classNames from "classnames";
 
 const Content = styled("div")({

@@ -3,10 +3,10 @@ import { storiesOf } from "@storybook/react";
 import { Story, StoryReadme, StorySandbox } from "@webiny/storybook-utils/Story";
 import readme from "./../Icon/README.md";
 
-import AutoRenewIcon from "./svg/baseline-autorenew-24px.svg";
-import CloudDoneIcon from "./svg/baseline-cloud_done-24px.svg";
-import BaselineDeleteIcon from "./svg/baseline-delete-24px.svg";
-import BaselineDoneIcon from "./svg/baseline-done-24px.svg";
+import { ReactComponent as AutoRenewIcon } from "./svg/baseline-autorenew-24px.svg";
+import { ReactComponent as CloudDoneIcon } from "./svg/baseline-cloud_done-24px.svg";
+import { ReactComponent as BaselineDeleteIcon } from "./svg/baseline-delete-24px.svg";
+import { ReactComponent as BaselineDoneIcon } from "./svg/baseline-done-24px.svg";
 import { Icon } from "./Icon";
 
 const story = storiesOf("Components/Icon", module);

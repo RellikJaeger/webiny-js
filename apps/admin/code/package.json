@@ -14,7 +14,8 @@
     "next": "^10.0.2",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.6.2",
-    "next-svgr": "^0.0.2"
+    "next-svgr": "^0.0.2",
+    "next-transpile-modules": "^4.1.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.2"

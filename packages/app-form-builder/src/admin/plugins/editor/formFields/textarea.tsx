@@ -1,5 +1,5 @@
 import React from "react";
-import TextIcon from "./icons/round-text_fields-24px.svg";
+import { ReactComponent as TextIcon } from "./icons/round-text_fields-24px.svg";
 import { Grid, Cell } from "@webiny/ui/Grid";
 import { Input } from "@webiny/ui/Input";
 import { I18NInput } from "@webiny/app-i18n/admin/components";

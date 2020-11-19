@@ -2,8 +2,8 @@ import React from "react";
 import styled from "@emotion/styled";
 import { IconButton } from "@webiny/ui/Button";
 import { Typography } from "@webiny/ui/Typography";
-import EditIcon from "../../icons/edit.svg";
-import DeleteIcon from "../../icons/delete.svg";
+import { ReactComponent as EditIcon } from "../../icons/edit.svg";
+import { ReactComponent as DeleteIcon } from "../../icons/delete.svg";
 import { useI18N } from "@webiny/app-i18n/hooks/useI18N";
 import { useFormEditor } from "@webiny/app-form-builder/admin/components/FormEditor/Context";
 

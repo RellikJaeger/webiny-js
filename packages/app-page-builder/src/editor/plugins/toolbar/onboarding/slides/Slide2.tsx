@@ -5,10 +5,10 @@ import classnames from "classnames";
 
 import SlideOutline from "./SlideOutline";
 
-import BlocksIcon from "../assets/slide-2-icon.svg";
-import HandIcon from "../assets/hand-icon.svg";
-import BlockMock from "../assets/block-mock.svg";
-import Hover from "../assets/slide-2-hover.svg";
+import { ReactComponent as BlocksIcon } from "../assets/slide-2-icon.svg";
+import { ReactComponent as HandIcon } from "../assets/hand-icon.svg";
+import { ReactComponent as BlockMock } from "../assets/block-mock.svg";
+import { ReactComponent as Hover } from "../assets/slide-2-hover.svg";
 
 const handPulsateSlide2 = keyframes`
     0% { 

@@ -11,7 +11,7 @@ import {
 } from "@webiny/app-admin/types";
 import { useNavigation, Menu, Item, Section } from "./components";
 import { logoStyle, MenuFooter, MenuHeader, navContent, navHeader, subFooter } from "./Styled";
-import MenuIcon from "@webiny/app-admin/assets/icons/baseline-menu-24px.svg";
+import { ReactComponent as MenuIcon } from "@webiny/app-admin/assets/icons/baseline-menu-24px.svg";
 
 const Navigation = () => {
     const { hideMenu, menuIsShown, initSections } = useNavigation();

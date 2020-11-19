@@ -10,7 +10,7 @@ import { IndexesTab } from "./Tabs/IndexesTab";
 import { PreviewTab } from "./Tabs/PreviewTab";
 import { Fields } from "./Fields";
 
-import FormIcon from "./icons/round-assignment-24px.svg";
+import { ReactComponent as FormIcon } from "./icons/round-assignment-24px.svg";
 
 const ContentContainer = styled("div")({
     paddingTop: 65

@@ -5,7 +5,7 @@ import { ListItem, ListItemGraphic } from "@webiny/ui/List";
 import { Icon } from "@webiny/ui/Icon";
 import { i18n } from "@webiny/app/i18n";
 import ApiInformationDialog from "./ApiInformationDialog";
-import InfoIcon from "../../assets/icons/info.svg";
+import { ReactComponent as InfoIcon } from "../../assets/icons/info.svg";
 
 const t = i18n.ns("app-admin/navigation");
 

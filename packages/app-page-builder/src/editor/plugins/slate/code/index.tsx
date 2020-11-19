@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Value } from "slate";
-import CodeIcon from "@webiny/app-page-builder/editor/assets/icons/code.svg";
+import { ReactComponent as CodeIcon } from "@webiny/app-page-builder/editor/assets/icons/code.svg";
 import {
     PbEditorSlateEditorPlugin,
     PbEditorSlateMenuItemPlugin

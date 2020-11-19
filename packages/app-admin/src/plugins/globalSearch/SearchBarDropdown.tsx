@@ -6,7 +6,7 @@ import { searchBarDropdown, iconSearchType } from "./styled";
 import { Elevation } from "@webiny/ui/Elevation";
 import { Icon } from "@webiny/ui/Icon";
 
-import SearchIcon from "./icons/round-search-24px.svg";
+import { ReactComponent as SearchIcon } from "./icons/round-search-24px.svg";
 
 export default class SearchBarDropdown extends React.Component<any> {
     componentDidMount() {

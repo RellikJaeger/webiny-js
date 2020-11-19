@@ -5,7 +5,7 @@ import { get } from "lodash";
 import { css } from "emotion";
 import { Icon } from "@webiny/ui/Icon";
 import styled from "@emotion/styled";
-import TagIcon from "./icons/round-label-24px.svg";
+import { ReactComponent as TagIcon } from "./icons/round-label-24px.svg";
 
 const style = {
     leftDrawer: css({

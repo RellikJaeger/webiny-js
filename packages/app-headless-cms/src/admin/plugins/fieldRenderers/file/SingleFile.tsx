@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { createRenderImagePreview, imageExtensions } from "./utils";
 import FileUpload from "./FileUpload";
-import fileIcon from "../../fields/icons/round_insert_drive_file-24px.svg";
+import { ReactComponent as fileIcon } from "../../fields/icons/round_insert_drive_file-24px.svg";
 import { CmsEditorField } from "@webiny/app-headless-cms/types";
 import { BindComponentRenderProp } from "@webiny/form";
 

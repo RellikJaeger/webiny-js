@@ -8,7 +8,7 @@ import MailchimpSettings from "./components/MailchimpSettings";
 import MailchimpElementAdvancedSettings from "./components/MailchimpElementAdvancedSettings";
 import MailchimpElement from "./components/MailchimpElement";
 import { SecureRoute } from "@webiny/app-security/components";
-import MailchimpLogo from "./mailchimp-logo.svg";
+import { ReactComponent as MailchimpLogo } from "./mailchimp-logo.svg";
 import render from "./../render";
 import {
     PbEditorPageElementPlugin,

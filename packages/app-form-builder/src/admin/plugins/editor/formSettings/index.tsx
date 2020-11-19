@@ -3,9 +3,9 @@ import { FormSettingsPluginType } from "@webiny/app-form-builder/types";
 import GeneralSettings from "./components/GeneralSettings";
 import TermsOfServiceSettings from "./components/TermsOfServiceSettings";
 import ReCaptchaSettings from "./components/ReCaptchaSettings";
-import SettingsIcon from "./icons/round-settings-24px.svg";
-import TermsOfServiceIcon from "./icons/round-receipt-24px.svg";
-import ReCaptchaIcon from "./icons/round-vpn_lock-24px.svg";
+import { ReactComponent as SettingsIcon } from "./icons/round-settings-24px.svg";
+import { ReactComponent as TermsOfServiceIcon } from "./icons/round-receipt-24px.svg";
+import { ReactComponent as ReCaptchaIcon } from "./icons/round-vpn_lock-24px.svg";
 
 export default [
     {

@@ -6,8 +6,8 @@ import { deactivatePlugin } from "@webiny/app-page-builder/editor/actions";
 import { isPluginActive } from "@webiny/app-page-builder/editor/selectors";
 import { useKeyHandler } from "@webiny/app-page-builder/editor/hooks/useKeyHandler";
 
-import NextSlideIcon from "./assets/next-slide.svg";
-import PrevSlideIcon from "./assets/prev-slide.svg";
+import { ReactComponent as NextSlideIcon } from "./assets/next-slide.svg";
+import { ReactComponent as PrevSlideIcon } from "./assets/prev-slide.svg";
 
 import Slide1 from "./slides/Slide1";
 import Slide2 from "./slides/Slide2";

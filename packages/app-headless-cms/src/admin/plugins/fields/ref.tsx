@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import RefIcon from "./icons/round-link-24px.svg";
+import { ReactComponent as RefIcon } from "./icons/round-link-24px.svg";
 import { useQuery } from "@webiny/app-headless-cms/admin/hooks";
 import { LIST_MENU_CONTENT_GROUPS_MODELS } from "@webiny/app-headless-cms/admin/viewsGraphql";
 import { validation } from "@webiny/validation";

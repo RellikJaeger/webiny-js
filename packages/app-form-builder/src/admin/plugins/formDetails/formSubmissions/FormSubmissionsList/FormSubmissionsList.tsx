@@ -14,7 +14,7 @@ import {
     ListSelectBox
 } from "@webiny/ui/List";
 import FormSubmissionDialog from "./FormSubmissionDialog";
-import ImportExport from "./icons/round-cloud_download-24px.svg";
+import { ReactComponent as ImportExport } from "./icons/round-cloud_download-24px.svg";
 import { IconButton } from "@webiny/ui/Button";
 import { EXPORT_FORM_SUBMISSIONS } from "@webiny/app-form-builder/admin/viewsGraphql";
 import { Mutation } from "react-apollo";

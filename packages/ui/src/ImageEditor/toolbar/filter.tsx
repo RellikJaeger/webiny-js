@@ -1,5 +1,5 @@
 import React from "react";
-import FilterIcon from "./icons/filter.svg";
+import { ReactComponent as FilterIcon } from "./icons/filter.svg";
 import { Slider } from "@webiny/ui/Slider";
 import { ImageEditorTool } from "./types";
 import { IconButton, ButtonDefault } from "@webiny/ui/Button";

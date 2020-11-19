@@ -1,7 +1,7 @@
 import React from "react";
 import { i18n } from "@webiny/app/i18n";
 import { useSecurity } from "@webiny/app-security";
-import SecurityIcon from "./../assets/icons/baseline-security-24px.svg";
+import { ReactComponent as SecurityIcon } from "./../assets/icons/baseline-security-24px.svg";
 
 const t = i18n.ns("app-security/admin/menus");
 

@@ -4,10 +4,10 @@ import { Story, StoryReadme, StorySandbox } from "@webiny/storybook-utils/Story"
 import readme from "./../TopAppBar/README.md";
 import { withKnobs, text } from "@storybook/addon-knobs";
 
-import AutoRenewIcon from "./icons/baseline-autorenew-24px.svg";
-import CloudDoneIcon from "./icons/baseline-cloud_done-24px.svg";
-import EnvelopeIcon from "./icons/baseline-email-24px.svg";
-import MenuIcon from "./icons/baseline-menu-24px.svg";
+import { ReactComponent as AutoRenewIcon } from "./icons/baseline-autorenew-24px.svg";
+import { ReactComponent as CloudDoneIcon } from "./icons/baseline-cloud_done-24px.svg";
+import { ReactComponent as EnvelopeIcon } from "./icons/baseline-email-24px.svg";
+import { ReactComponent as MenuIcon } from "./icons/baseline-menu-24px.svg";
 
 import {
     TopAppBar,
