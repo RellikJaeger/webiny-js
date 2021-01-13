@@ -11,6 +11,7 @@ env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   WEBINY_TRACKING_PREFIX: ${{ secrets.WEBINY_TRACKING_PREFIX }}
+  CWP_TEMPLATE_OPTIONS: "{\"vpc\":false,\"region\":\"eu-central-1\",\"pulumi\":{\"backend\":{\"type\":\"s3\",\"options\":{\"path\":\"test-pulumi-asd\"}},\"secretsProvider\":{\"type\":\"passphrase\",\"options\":{\"passphrase\":\"ci-passphrase-xyz\"}}}}"
 
 jobs:
   build-test-release:
@@ -59,7 +60,7 @@ jobs:
         run: yarn lerna publish from-package --dist-tag beta --registry=\"http://localhost:4873\" --no-verify-access --no-verify-registry
 
       - name: Create a new Webiny project
-        run: npx create-webiny-project@beta test-project --tag beta --no-interactive --template-options
+        run: npx create-webiny-project@beta test-project --tag beta --no-interactive --template-options $CWP_TEMPLATE_OPTIONS
 
       - name: Deploy the project
         run: cd test-project && yarn webiny deploy
