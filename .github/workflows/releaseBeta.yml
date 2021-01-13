@@ -49,8 +49,29 @@ jobs:
       - name: Set git username
         run: git config --global user.name "webiny"
 
-      - name: Create a release on GitHub
-        run: yarn lerna version --conventional-prerelease --force-publish --preid beta --yes
+      - name: Start Verdacccio
+        run: yarn pm2 start verdaccio
+
+      - name: Create a release locally (no push)
+        run: yarn lerna version --conventional-prerelease --force-publish --preid beta --no-push
+
+      - name: Release packages to Verdaccio
+        run: yarn lerna publish from-package --dist-tag beta --registry=\"http://localhost:4873\" --no-verify-access --no-verify-registry
+
+      - name: Create a new Webiny project
+        run: npx create-webiny-project@beta test-project --tag beta --no-interactive --template-options
+
+      - name: Deploy the project
+        run: cd test-project && yarn webiny deploy
+
+      - name: Run Cypress test
+        run: echo "TODO - implement Cypress tests 🥺"
+
+      - name: Push committed changes
+        run: git push
 
       - name: Release packages to NPM
         run: yarn lerna publish from-package --dist-tag beta --yes
+
+      - name: Stop Verdacccio
+        run: pm2 stop verdaccio
